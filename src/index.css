@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html {
+    font-family: 'Rubik', sans-serif;
+  }
+}
+html {
+  min-height: 100%;
+}
+body {
+  background: linear-gradient(to bottom, #060218 10%, #2b0323 90%);
+}
+.color-change:hover {
+  fill: url(#gradient);
+}
+.heading {
+  font-family: 'Space Grotesk', sans-serif;
+}
